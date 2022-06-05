@@ -20,12 +20,13 @@ allClear.addEventListener('click', () => {
 
 // task-1: Make a list of users containing a minimum of 50 points and sort them according to the point and display their full name, point, and company name only.
 
+// Filtering the data
 const task1 = data.filter((i) => i.point >= 50);
 
-
+// sorting the data
 const sorting = task1.sort((a, b) => a.point - b.point);
 
-
+// display the result on webpage
 const btn1 = document.getElementById('task-1-btn');
 btn1.addEventListener('click', () => {
     const ol = document.getElementById('task-1-result');
@@ -54,9 +55,10 @@ btn1.addEventListener('click', () => {
 // task-2: Count how many users got more than 20 and less than 50 point and display the value
 
 
-
+// filtering the data to meet the required conditions
 const task2 = data.filter((i) => i.point < 50 && i.point > 20);
 
+// Display to webpage
 const btn2 = document.getElementById('task-2-btn');
 btn2.addEventListener('click', () => {
     const ol = document.getElementById('task-2-result');
@@ -69,6 +71,8 @@ btn2.addEventListener('click', () => {
 //task-3 : Find the point of a user whose email is 'Tristian7@yahoo.com'. 
 //Display the point and list the users containing that point and display their email addresses.
 
+// filtering the data to meet the required conditons
+
 const task3_1 = data.filter((i) => i.email == "Tristian7@yahoo.com");
 
 
@@ -76,7 +80,7 @@ const task3_1 = data.filter((i) => i.email == "Tristian7@yahoo.com");
 const task3_2 = data.filter((i) => i.point === task3_1[0].point)
 
 
-
+// display the data on webpage
 
 const btn3 = document.getElementById('task-3-btn');
 btn3.addEventListener('click', () => {

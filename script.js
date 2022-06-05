@@ -1,5 +1,5 @@
 import { data } from './data.js';
-console.log(data);
+
 
 //clearing individual results
 function clearResults(id) {
@@ -10,8 +10,10 @@ function clearResults(id) {
 // Clear all results
 const allClear = document.getElementById('clear-all');
 allClear.addEventListener('click', () => {
-    const ol = document.getElementsByClassName('results');
-    ol.innerText = "";
+    const ol = document.getElementsByClassName('results')
+    ol.innerHTML = "";
+
+
 })
 
 

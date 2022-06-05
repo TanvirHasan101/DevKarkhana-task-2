@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+
+    background-color: rgb(29, 39, 44);
+}
+
+div {
+    margin-top: 40px;
+    background-color: rgb(255, 255, 213);
+    border-radius: 10px;
+    width: auto;
+    padding: 10px;
+}
+
+h1 {
+    color: rgb(198, 79, 58);
+    margin: auto;
+    font-size: 45px;
+}
+
+small {
+    color: rgb(29, 39, 44);
+}
+
+button {
+
+    font-size: 18px;
+    padding: 10px 20px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 10px;
+    color: rgb(255, 255, 213);
+    background-color: rgb(29, 39, 44);
+
+}
+
+button:hover {
+    color: rgb(198, 79, 58);
+    background-color: rgb(29, 39, 44);
+}
+
+ol {
+    color: tomato;
+    font-weight: 700;
+}
+
+li {
+    padding: 3px;
+}
